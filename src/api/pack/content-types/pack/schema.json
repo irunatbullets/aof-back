@@ -46,11 +46,17 @@
       "type": "string",
       "regex": "\\d+"
     },
-    "CTA": {
-      "displayName": "CTA",
+    "BackgroundColor": {
       "type": "component",
       "repeatable": false,
-      "component": "pack.cta"
+      "component": "ui.background-color",
+      "required": true
+    },
+    "TargetReleaseDate": {
+      "type": "date"
+    },
+    "ReleaseDate": {
+      "type": "date"
     }
   }
 }

@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "modpacks",
+  "info": {
+    "singularName": "modpack",
+    "pluralName": "modpacks",
+    "displayName": "Modpacks"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Packs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::pack.pack"
+    }
+  }
+}
