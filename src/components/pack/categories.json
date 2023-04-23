@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_pack_categories",
+  "info": {
+    "displayName": "Categories"
+  },
+  "options": {},
+  "attributes": {
+    "Categories": {
+      "type": "customField",
+      "options": [
+        "Exploration",
+        "Extra large",
+        "Magic",
+        "Quests",
+        "Tech"
+      ],
+      "customField": "plugin::multi-select.multi-select"
+    }
+  }
+}
