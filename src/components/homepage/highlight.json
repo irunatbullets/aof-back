@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_homepage_highlights",
+  "info": {
+    "displayName": "Highlight",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "intro": {
+      "type": "text"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "sections": {
+      "type": "component",
+      "required": true,
+      "repeatable": true,
+      "component": "general.text-block",
+      "max": 2
+    },
+    "background": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.background",
+      "required": true
+    }
+  }
+}

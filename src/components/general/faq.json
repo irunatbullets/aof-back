@@ -1,14 +1,15 @@
 {
   "collectionName": "components_faqs_faqs",
   "info": {
-    "displayName": "FAQ"
+    "displayName": "FAQ",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Question": {
+    "question": {
       "type": "string"
     },
-    "Answer": {
+    "answer": {
       "type": "richtext"
     }
   }

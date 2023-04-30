@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_homepage_faqs",
+  "info": {
+    "displayName": "FAQ",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "intro": {
+      "type": "text"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "faqs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.faq",
+      "required": true
+    },
+    "background": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.background",
+      "required": true
+    }
+  }
+}

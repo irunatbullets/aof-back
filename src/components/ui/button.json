@@ -1,26 +1,28 @@
 {
   "collectionName": "components_ui_buttons",
   "info": {
-    "displayName": "Button"
+    "displayName": "Button",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Text": {
+    "text": {
       "type": "string",
       "required": true,
       "default": "Button"
     },
-    "URL": {
+    "url": {
       "type": "string",
       "required": true
     },
-    "Color": {
+    "color": {
       "type": "enumeration",
       "enum": [
+        "Orange",
         "White",
         "Red"
       ],
-      "default": "White"
+      "default": "Orange"
     }
   }
 }

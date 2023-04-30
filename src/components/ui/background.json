@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_ui_backgrounds",
+  "info": {
+    "displayName": "Background",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "color": {
+      "type": "enumeration",
+      "enum": [
+        "white",
+        "black",
+        "red",
+        "orange",
+        "yellow",
+        "green",
+        "blue",
+        "purple",
+        "pink"
+      ],
+      "default": "white",
+      "required": true
+    }
+  }
+}

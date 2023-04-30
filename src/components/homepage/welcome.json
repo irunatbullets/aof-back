@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_homepage_welcomes",
+  "info": {
+    "displayName": "Welcome",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "intro": {
+      "type": "richtext"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.button"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "statistics": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.stat",
+      "max": 4
+    },
+    "background": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.background",
+      "required": true
+    }
+  }
+}

@@ -12,13 +12,20 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string"
     },
-    "Description": {
-      "type": "richtext"
+    "targetReleaseDate": {
+      "type": "date"
     },
-    "Image": {
+    "releaseDate": {
+      "type": "date"
+    },
+    "shortDescription": {
+      "type": "richtext",
+      "required": true
+    },
+    "image": {
       "type": "media",
       "multiple": true,
       "required": false,
@@ -29,34 +36,31 @@
         "audios"
       ]
     },
-    "Button": {
+    "button": {
       "displayName": "Button",
       "type": "component",
       "repeatable": false,
       "component": "ui.button",
       "required": true
     },
-    "Categories": {
+    "categories": {
       "type": "component",
       "repeatable": false,
       "component": "pack.categories",
       "required": true
     },
-    "ModCount": {
-      "type": "string",
-      "regex": "\\d+"
-    },
-    "BackgroundColor": {
-      "type": "component",
-      "repeatable": false,
-      "component": "ui.background-color",
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "modpack",
+        "mod"
+      ],
+      "default": "modpack",
       "required": true
     },
-    "TargetReleaseDate": {
-      "type": "date"
-    },
-    "ReleaseDate": {
-      "type": "date"
+    "modCount": {
+      "type": "string",
+      "regex": "\\d+"
     }
   }
 }

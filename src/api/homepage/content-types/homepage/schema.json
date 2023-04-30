@@ -1,0 +1,41 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "Homepage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "welcome": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.welcome",
+      "required": true
+    },
+    "modpacks": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.modpacks",
+      "required": true
+    },
+    "highlights": {
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.highlight",
+      "required": true,
+      "max": 2
+    },
+    "faq": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.faq",
+      "required": true
+    }
+  }
+}
